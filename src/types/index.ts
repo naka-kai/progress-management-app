@@ -4,4 +4,5 @@ export interface Task {
   id: string
   content: string
   status: TaskStatus
+  isEditing: boolean
 }

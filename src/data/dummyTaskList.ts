@@ -4,26 +4,31 @@ export const dummyTaskList: Task[] = [
   {
     id: "1",
     content: "task1",
-    status: "NotStarted"
+    status: "NotStarted",
+    isEditing: false
   },
   {
     id: "2",
     content: "task2",
-    status: "Working"
+    status: "Working",
+    isEditing: false
   },
   {
     id: "3",
     content: "task3",
-    status: "Completed"
+    status: "Completed",
+    isEditing: false
   },
   {
     id: "4",
     content: "task4",
-    status: "NotStarted"
+    status: "NotStarted",
+    isEditing: false
   },
   {
     id: "5",
     content: "task5",
-    status: "Working"
+    status: "Working",
+    isEditing: false
   }
 ]
